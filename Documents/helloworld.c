@@ -47,5 +47,8 @@ int main(int argc, char *argv[])
     printf ("size of mydouble is %zu\n", sizeof(mydouble));
     printf (" mysumdb is %f\n", mysumdb);
 
+    int modResult = 9 % 2;
+    printf("modresult = %d", modResult);
+
     return 0;
 }

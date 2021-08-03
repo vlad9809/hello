@@ -46,6 +46,34 @@ int main(int argc, char *argv[])
     printf ("size of double is %zu\n", sizeof(double));
     printf ("size of mydouble is %zu\n", sizeof(mydouble));
     printf (" mysumdb is %f\n", mysumdb);
+    int modResult = 47 % 7;
+    printf("modresult = %d\n", modResult);
+
+    int q = 10;
+    int w = 20;
+    int result1 = (w > q);
+    printf("w > q? %d\n", (result1));
+    int age = 18;
+    int citizen = 1;
+    if(age >=18 && citizen ==1){
+        printf("you are eligible to vote");
+    } else {
+        printf ("you are not eligible to vote");
+    }
+    int grade = 41;
+    char lettergrade;
+     if (grade >=90) {
+         lettergrade = 'a';
+     } else if (grade >=80) {
+         lettergrade = 'b';
+     } else if (grade >=70) {
+         lettergrade = 'c';
+     } else {
+         lettergrade = 'd' ;
+         }    
+     printf ("Letter Grade: %c\n", lettergrade);    
+
+    
 
     return 0;
-}
+} 
