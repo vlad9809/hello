@@ -16,10 +16,13 @@ int main () {
       
 void square (int i) {
     printf ("\nThe square of is %d", (i * i));
-    }
+}
 void multiply (int p, int o){
     int result2;
     result2 = p * o;
     printf("result of multiply is %d\n",(result2));
 
-    }
+}
+void greet (){
+    printf ("greetings");
+}
